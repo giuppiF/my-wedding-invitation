@@ -19,10 +19,10 @@ export default function Header() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div className="lg:py-24">
-              <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+              <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-8xl lg:mt-6">
                 Ciao <span className="text-red-400">Pippo e Pluto</span>!
               </h1>
-              <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-5xl lg:text-3xl xl:text-xl">
                 Siamo felici di invitarvi al nostro matrimonio!! Sarà una grande
                 festa e un modo per condividere insieme del tempo.
               </p>
