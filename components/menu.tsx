@@ -21,7 +21,7 @@ export default function Menu() {
           aria-label="Global"
         >
           <div className="flex items-center flex-1">
-            <div className="flex items-center justify-between w-full md:w-auto">
+            <div className="flex items-center justify-between w-full lg:w-auto">
               <a href="#">
                 <span className="sr-only">Matrimonio</span>
                 <Image
@@ -32,14 +32,14 @@ export default function Menu() {
                   height="32"
                 />
               </a>
-              <div className="-mr-2 flex items-center md:hidden">
+              <div className="-mr-2 flex items-center lg:hidden">
                 <Popover.Button className="bg-gray-500 rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:bg-gray-500 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
-            <div className="hidden space-x-8 md:flex md:ml-10">
+            <div className="hidden space-x-8 lg:flex lg:ml-10">
               {navigation.map((item) => (
                 <a
                   key={item.name}
@@ -65,7 +65,7 @@ export default function Menu() {
       >
         <Popover.Panel
           focus
-          className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden"
+          className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden"
         >
           <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="px-5 pt-4 flex items-center justify-between">
