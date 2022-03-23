@@ -3,24 +3,27 @@ import { useState } from "react";
 import { RadioGroup } from "@headlessui/react";
 
 const options = [
-  { value: "y", label: "Si" },
-  { value: "n", label: "No" },
+  { value: true, label: "Si" },
+  { value: false, label: "No" },
 ];
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Confirm() {
-  const [confirm, setConfirm] = useState("y");
+interface ConfirmProps {
+  confirm: boolean;
+  setConfirm: (confirm: boolean) => void;
+}
 
+export default function Confirm({ confirm, setConfirm }: ConfirmProps) {
   return (
     <RadioGroup value={confirm} onChange={setConfirm} className="mt-2">
       <RadioGroup.Label className="sr-only">Conferma</RadioGroup.Label>
       <div className="grid grid-cols-2 gap-3">
-        {options.map((option) => (
+        {options.map((option, k) => (
           <RadioGroup.Option
-            key={option.value}
+            key={k}
             value={option.value}
             className={({ active, checked }) =>
               classNames(

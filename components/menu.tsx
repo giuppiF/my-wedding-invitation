@@ -15,7 +15,7 @@ const navigation = [
 export default function Menu() {
   return (
     <Popover as="header" className="relative">
-      <div className="bg-green-800 pt-6">
+      <div className="pt-6">
         <nav
           className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
           aria-label="Global"
@@ -28,14 +28,14 @@ export default function Menu() {
                   className="h-8 w-auto sm:h-10"
                   src="/logo.svg"
                   alt=""
-                  width="32"
-                  height="32"
+                  width="64"
+                  height="64"
                 />
               </a>
               <div className="-mr-2 flex items-center lg:hidden">
-                <Popover.Button className="bg-gray-500 rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:bg-gray-500 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                <Popover.Button className="bg-red-800 rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:bg-gray-500 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
-                  <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                  <MenuIcon className="h-12 w-12" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Menu() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-base font-medium text-white hover:text-gray-300"
+                  className="text-base font-medium  hover:text-gray-800"
                 >
                   {item.name}
                 </a>
@@ -74,14 +74,14 @@ export default function Menu() {
                   className="h-8 w-auto sm:h-10"
                   src="/logo.svg"
                   alt=""
-                  width="32"
-                  height="32"
+                  width="64"
+                  height="64"
                 />
               </div>
               <div className="-mr-2">
-                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">
+                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-800">
                   <span className="sr-only">Close menu</span>
-                  <XIcon className="h-6 w-6" aria-hidden="true" />
+                  <XIcon className="h-12 w-12" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Menu() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-5xl font-medium text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
                   </a>
