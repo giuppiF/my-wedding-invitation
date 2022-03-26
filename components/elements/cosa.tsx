@@ -1,7 +1,7 @@
 export const CosaIcon = () => (
   <svg
-    width="88"
-    height="88"
+    width="80"
+    height="80"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

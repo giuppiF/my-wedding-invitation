@@ -38,7 +38,7 @@ export const Chi = ({ guest }: { guest: Guest }) => {
             <p className=" tracking-tight ">Quante persone sarete?</p>
             <div className="w-64 flex gap-8">
               <div>
-                <label htmlFor="adults" className="block text-2xl font-medium ">
+                <label htmlFor="adults" className="block text-xl font-medium ">
                   Adulti
                 </label>
                 <select
@@ -60,14 +60,14 @@ export const Chi = ({ guest }: { guest: Guest }) => {
               <div>
                 <label
                   htmlFor="children"
-                  className="block text-2xl font-medium "
+                  className="block text-xl font-medium "
                 >
                   Bimbi
                 </label>
                 <select
                   id="children"
                   name="children"
-                  className="mt-1 text-black  block w-full pl-3 pr-10 py-2 text-2xl border-gray-300 focus:outline-none focus:ring-red-400 focus:border-red-400  rounded-md"
+                  className="mt-1 text-black  block w-full pl-3 pr-10 py-2 text-xl border-gray-300 focus:outline-none focus:ring-red-400 focus:border-red-400  rounded-md"
                   defaultValue="0"
                 >
                   <option>0</option>
@@ -84,7 +84,7 @@ export const Chi = ({ guest }: { guest: Guest }) => {
             </div>
           </div>
           <div>
-            <label htmlFor="comment" className="block text-2xl font-medium ">
+            <label htmlFor="comment" className="block text-base font-medium ">
               Note/intolleranze alimentari/necessità/varieedeventuali
             </label>
             <div className="mt-1">
@@ -99,7 +99,12 @@ export const Chi = ({ guest }: { guest: Guest }) => {
           </div>
         </div>
         <div>
-          <button type="submit">SUBMIT</button>
+          <button
+            type="submit"
+            className="border rounded-md py-3 px-3 flex items-center justify-center  font-medium uppercase sm:flex-1 mt-8 bg-red-400 text-white"
+          >
+            INVIA
+          </button>
         </div>
       </form>
     </div>
@@ -108,8 +113,8 @@ export const Chi = ({ guest }: { guest: Guest }) => {
 
 export const ChiIcon = () => (
   <svg
-    width="50"
-    height="50"
+    width="42"
+    height="42"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
