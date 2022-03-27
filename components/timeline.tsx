@@ -32,7 +32,7 @@ export default function Timeline({ guest }: { guest: Guest }) {
               <p className="mb-2 text-3xl lg:text-4xl font-bold  uppercase">
                 {element.name}
               </p>
-              <div className=" text-base  sm:mt-5 sm:text-5xl lg:text-3xl xl:text-xl">
+              <div className=" text-xl  sm:mt-5 sm:text-5xl lg:text-3xl xl:text-xl">
                 {element.element}
               </div>
             </div>
@@ -48,6 +48,7 @@ export default function Timeline({ guest }: { guest: Guest }) {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
+                  className="stroke-green-700"
                 >
                   <path
                     strokeLinecap="round"

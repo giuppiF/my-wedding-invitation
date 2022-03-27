@@ -18,8 +18,8 @@ model Guest {
   updatedAt  DateTime @updatedAt
   name       String   @unique
   helloNames String   @db.VarChar(1024)
+  female     Boolean  @default(false)
   plural     Boolean  @default(false)
-  church     Boolean  @default(true)
   accepted   Boolean
   adults     Int
   children   Int

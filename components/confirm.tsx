@@ -32,7 +32,7 @@ export default function Confirm({ confirm, setConfirm }: ConfirmProps) {
                 checked
                   ? "bg-green-600 border-transparent text-white hover:bg-green-600"
                   : "bg-white border-gray-200 text-gray-900 hover:bg-gray-50",
-                "border rounded-md py-3 px-3 flex items-center justify-center  font-medium uppercase sm:flex-1"
+                "border rounded-md py-2 px-2 flex items-center justify-center  font-medium uppercase sm:flex-1"
               )
             }
           >
