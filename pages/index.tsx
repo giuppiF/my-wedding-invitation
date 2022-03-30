@@ -48,7 +48,7 @@ export default function Home({
           name="description"
           content="Matrimonio Barbi e Giuppi (featuring Jacopo)"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
       <div className="bg-white ">
         <Menu />
