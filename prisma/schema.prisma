@@ -20,8 +20,9 @@ model Guest {
   helloNames String   @db.VarChar(1024)
   female     Boolean  @default(false)
   plural     Boolean  @default(false)
+  confirmed  Boolean
   accepted   Boolean
-  adults     Int
-  children   Int
-  notes      String   @db.VarChar(2048)
+  adults     String
+  children   String
+  notes      String   @db.VarChar(10000)
 }

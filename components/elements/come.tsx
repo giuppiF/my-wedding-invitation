@@ -14,9 +14,9 @@ export const ComeIcon = () => (
 export const Come = () => (
   <div className="pb-8 flex flex-col gap-8">
     <div>
-      <p className="">Vuoi sapere come dimostrarci il tuo affetto?</p>
       <p className="">
-        Supportaci per il grande viaggio di famiglia che stiamo organizzando!
+        Grazie del supporto per il grande viaggio di famiglia che stiamo
+        organizzando!
       </p>
     </div>
 

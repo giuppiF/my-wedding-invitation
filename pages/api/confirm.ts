@@ -14,10 +14,19 @@ export default async function handler(
   const guestName = req.query.name;
   const body = JSON.parse(req.body);
   const confirm = body.confirm;
+  const adults = body.adults;
+  const children = body.children;
+  const notes = body.notes;
 
   const guest = await prisma.guest.update({
     where: { name: guestName as string },
-    data: { accepted: confirm },
+    data: {
+      accepted: confirm,
+      adults: adults,
+      children: children,
+      notes: notes,
+      confirmed: true,
+    },
   });
   res.json(guest);
 }

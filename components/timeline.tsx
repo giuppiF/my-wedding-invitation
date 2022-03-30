@@ -12,7 +12,7 @@ export default function Timeline({ guest }: { guest: Guest }) {
     { icon: <DoveIcon />, element: <Dove guest={guest} />, name: "dove" },
     { icon: <QuandoIcon />, element: <Quando guest={guest} />, name: "quando" },
     { icon: <ChiIcon />, element: <Chi guest={guest} />, name: "chi" },
-    { icon: <ComeIcon />, element: <Come />, name: "come" },
+    { icon: <ComeIcon />, element: <Come />, name: "grazie" },
   ];
 
   return (

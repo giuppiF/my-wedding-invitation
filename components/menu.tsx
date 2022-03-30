@@ -9,7 +9,7 @@ const navigation = [
   { name: "Quando", href: "#quando" },
   { name: "Dove", href: "#dove" },
   { name: "Chi", href: "#chi" },
-  { name: "Come", href: "#come" },
+  { name: "Grazie", href: "#grazie" },
 ];
 
 export default function Menu() {
