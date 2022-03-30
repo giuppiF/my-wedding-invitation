@@ -58,7 +58,7 @@ export default function Home({
         <meta property="og:url" content="https://www.barbigiuppiejaco.it/" />
         <meta
           property="og:image"
-          content="https://barbigiuppiejaco.it/logo.svg"
+          content="https://barbigiuppiejaco.it/logo.png"
         />
       </Head>
       <div className="bg-white ">
