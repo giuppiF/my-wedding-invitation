@@ -49,6 +49,17 @@ export default function Home({
           content="Matrimonio Barbi e Giuppi (featuring Jacopo)"
         />
         <link rel="icon" href="/logo.svg" />
+        <meta property="og:title" content="Ecco l'invito!" />
+        <meta
+          property="og:description"
+          content="Matrimonio di Barbi e Giuppi (featuring Jacopo)."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.barbigiuppiejaco.it/" />
+        <meta
+          property="og:image"
+          content="https://www.barbigiuppiejaco.it/logo.svg"
+        />
       </Head>
       <div className="bg-white ">
         <Menu />
