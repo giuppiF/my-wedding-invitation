@@ -43,16 +43,16 @@ export default function Home({
   return (
     <div className="relative overflow-hidden">
       <Head>
-        <title>Matrimonio Barbi e Giuppi (featuring Jacopo)</title>
+        <title>Matrimonio Barbi e Giuppi (feat. Jaco)</title>
         <meta
           name="description"
-          content="Matrimonio Barbi e Giuppi (featuring Jacopo)"
+          content="Matrimonio Barbi e Giuppi (feat. Jaco)"
         />
         <link rel="icon" href="/logo.svg" />
-        <meta property="og:title" content="Ecco l'invito!" />
+        <meta property="og:title" content="11 giugno 2022" />
         <meta
           property="og:description"
-          content="Matrimonio di Barbi e Giuppi (featuring Jacopo)."
+          content="Matrimonio Barbi e Giuppi (feat. Jaco)"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.barbigiuppiejaco.it/" />

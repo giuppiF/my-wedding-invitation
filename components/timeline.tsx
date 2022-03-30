@@ -62,7 +62,7 @@ export default function Timeline({ guest }: { guest: Guest }) {
           </div>
           <div className="pt-3">
             <p className="mb-2  text-3xl lg:text-4xl font-bold  uppercase ">
-              Vi aspettiamo!
+              {guest.plural ? "Vi" : "Ti"} aspettiamo!
             </p>
           </div>
         </div>
