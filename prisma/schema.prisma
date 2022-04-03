@@ -25,4 +25,6 @@ model Guest {
   adults     String
   children   String
   notes      String   @db.VarChar(10000)
+  expectedAdults String @default("1")
+  exceptedChildren String @default("0")
 }
