@@ -28,7 +28,7 @@ export default function Home({
   }
 
   const filter = (e: any) => {
-    const word = e.target.value;
+    const word = e.target.value.toLowerCase();
     const filtered = guests.filter(
       (g: Guest) =>
         g.helloNames.toLowerCase().includes(word) ||
