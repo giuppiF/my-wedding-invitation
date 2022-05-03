@@ -22,7 +22,7 @@ export const Come = () => (
 
     <div>
       <p className="text-base">
-        <span>IBAN:</span> IT02302340928350257092487
+        <span>IBAN:</span> IT69U0301503200000006105745
       </p>
       <p className="text-base">
         <span>Intestato a</span> Giuseppe Funicello
